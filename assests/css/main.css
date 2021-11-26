@@ -1,0 +1,281 @@
+/* =============== shared ================= */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: Raleway, sans-serif;
+}
+
+body{
+    background: #f1f1f1;
+}
+
+.m-20-16{
+    margin: 20px 16px;
+}
+
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col{
+    float: left;
+}
+
+.one-third{
+    width: 33.33333%;
+}
+
+.two-third{
+    width: 66.66666%;
+}
+
+.shadow{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.bfff{
+    background: #fff;
+}
+
+.pt-32{
+    padding-top: 32px;
+}
+
+.pb-32{
+    padding-bottom: 32px;
+}
+/* =============== shared ================= */
+
+
+/* =============== header ================= */
+#header{
+    padding: 46px 0;
+    text-align: center;
+}
+
+#header .header-ct .header-title{
+    font-size: 36px;
+    font-weight: 600;
+}
+
+#header .header-ct .header-dct{
+    font-size: 15px;
+    padding-top: 25px;
+}
+
+#header .header-ct span{
+    background: #000;
+    color: #fff;
+    padding: 0 8px;
+}
+/* =============== header ================= */
+
+
+/* =============== slider ================= */
+
+/* =============== slider ================= */
+
+
+/* =============== content ================= */
+#content{
+    padding-bottom: 32px;
+}
+
+#content .section{
+    display: inline-block;
+}
+
+#content .section .section-ct{
+    padding: 16px;
+}
+
+#content .section-ct .section-hd{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+#content .section-ct .section-dct{
+    font-size: 18px;
+    padding: 16px 0 20px;
+    font-weight: 400;
+}
+
+#content .about-section span{
+    opacity: 0.6;
+}
+
+#content .section-ct .about-section{
+    font-size: 15px;
+    line-height: 1.5;
+    padding-bottom: 32px;
+}
+
+#content .section-ct .read-more-btn{
+    background: #fff;
+    border-radius: 0;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    padding: 12px 24px;
+    font-weight: 500;
+}
+
+#content .section-ct .read-more-btn:hover{
+    background: #ccc;
+    cursor: pointer;
+}
+
+#content .section-ct.read-more-icon{
+    font-size: 8px;
+}
+
+#content .section-ct .comment{
+    float: right;
+    padding-top: 16px;
+    font-size: 15px;
+}
+
+#content .section-ct .quantity{
+    background: #000;
+    color: #fff;
+    padding:  4px 8px;
+    margin-left: 8px;
+}
+
+#content .section-img{
+    width: 100%;
+    display: block;
+}
+
+#content .my-img{
+    width: 100%;
+    display: block;
+}
+
+#content .my-self{
+    padding: 0 16px;
+}
+
+#content .my-self .my-name{
+    font-size: 24px;
+    padding: 16px 0 20px;
+    font-weight: 500;
+}
+
+#content .my-self .about-me{
+    font-size: 15px;
+    line-height: 1.5;
+    padding-bottom: 16px;
+}
+
+#content .ct-heading{
+    padding: 18px 16px;
+    background: #f1f1f3;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+#content .posts-list{
+    list-style: none;
+}
+
+#content .posts-list li{
+    padding: 16px;
+    border-bottom: 1px solid #ddd;
+}
+
+#content .posts-list li:hover{
+    background: #ccc;
+    cursor: pointer;
+}
+
+#content .posts-list a{
+    text-decoration: none;
+    color: #000;
+}
+
+#content .posts-list .post-img{
+    width: 50px;
+    margin-right: 16px;
+}
+
+#content .posts-list .post-name{
+    font-size: 18px;
+    padding: 4px 0 7px;
+}
+
+#content .posts-list .post-dct{
+    font-size: 15px;
+}
+
+#content .tags-list{
+    margin-left: 16px;
+}
+
+#content .tags-list li{
+    display: inline-block;
+    margin-top: 16px;
+    padding: 0 8px;
+    font-size: 12px;
+    background: #f1f1f3;
+}
+
+#content .tags-list .choosing-tag{
+    background: #000;
+    color: #fff;
+    font-size: 15px;
+    margin-top: 8px;
+}
+/* =============== content ================= */
+
+
+/* =============== footer ================= */
+#footer{
+    padding: 32px 16px;
+    background: #616161;
+}
+
+#footer a[class*="btn"]{
+    display: inline-block;
+    padding: 12px 24px;
+    margin-bottom: 32px;
+    background: #000;
+    color: #fff;
+    text-decoration: none;
+}
+
+#footer .previous-btn{
+    opacity: 0.3;
+}
+
+#footer .previous-btn:hover{
+    opacity: 0.3;
+    background: #ccc;
+    color: #000;
+    cursor: not-allowed;
+}
+
+#footer .next-btn .fas{
+    font-size: 8px;
+}
+
+#footer .next-btn:hover{
+    background-color: #ccc;
+    color: #000;
+}
+
+#footer .license{
+    display: block;
+}
+
+#footer .license, a{
+    font-size: 15px;
+    color: #fff;
+    padding-bottom: 16px;
+}
+/* =============== footer ================= */
